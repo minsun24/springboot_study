@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>핸들러 메소드의 파라미터와 어노테이션!!</h1>
+    <h3>1. HttpServletRequest 를 요청 파라미터로 전달받기 </h3>
+    <button onclick="location.href='/first/regist'">파라미터 전달하기</button>
+
+<!--    스프링부트에서는 아래 방식들을 주로 사용  -->
+    <h3>2. @RequestParam 을 이용해 요청 파라미터 전달받기</h3>
+    <button onclick="location.href='/first/modify'">@RequestParam 이용하기</button>
+
+    <h3>3. @ModelAttribute 을 이용해 요청 파라미터 전달받기</h3>
+    <button onclick="location.href='/first/search'">v 이용하기</button>
+
+    <h3>3-1, 3-2, HttpSession 이용하기</h3>
+    <button onclick="location.href='first/login'">session에 정보 담기</button>
+
+    <h3>4. @RequestBody 등의 핸들러 메소드의 어노테이션들을 활용한 전달 받기</h3>
+    <button onclick="location.href='first/body'">다양한 어노테이션 활용하기</button>
+
+</body>
+</html>

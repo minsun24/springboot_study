@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modify</title>
+</head>
+<body>
+<h1>@RequestParam을 이용하여 전달된 파라미터 꺼내기</h1>
+    <h3>메뉴 수정하기</h3>
+    <!-- 필기. action="modify1" 라고만 적어주면 현재 파일 경로에 따라 자동으로 ... -->
+    <form action="/first/modify1" method="post">
+        수정할 메뉴의 이름 : <input type="text" name="modifyName"> <br>
+        수정할 메뉴 가격: <input type="text" name="modifyPrice">
+        <button>수정하기</button>
+    </form>
+
+    <h3>메뉴 수정하기2</h3>
+    <form action="/first/modify1" method="post">
+        수정할 메뉴의 이름 : <input type="text" name="modifyName"> <br>
+        수정할 메뉴 가격: <input type="text" name="modifyPrice">
+        <button>수정하기</button>
+    </form>
+
+</body>
+</html>
