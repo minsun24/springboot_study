@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Result Page</title>
+    <link rel="stylesheet" href="http://localhost:8080/css/test.css"/>
+</head>
+<body>
+<!--    프로그램 실행 시간 로그 처리    -->
+<!--    재료(iterval) 뽑기  (인터셉터가 마지막에 챙겨준 재료?)... -->
+    <h1 th:text="|메소드 호출 수행 시간: ${interval}|"></h1>
+<!--
+      실행 시간이 0 또는 1
+      -> 우리의 컨트롤러가 하는 일이 없어서... 속도가 너무 빠름
+      -> 약간의 딜레이를 부여해보자. 쓰레드의 sleep() 활용
+      0, 1011, 1004, ...
+      -> 핸들러 메소드가 매번 서버 자체 안에서 컨트롤러에서 DB를 찍고 오는 과정의 시간을 계산한 것(테스트)
+-->
+
+    <h3></h3>
+
+</body>
+</html>
