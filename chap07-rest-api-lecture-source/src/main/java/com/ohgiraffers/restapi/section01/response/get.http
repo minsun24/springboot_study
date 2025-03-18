@@ -1,0 +1,17 @@
+### GET request hello
+GET localhost:8080/response/hello
+
+### GET request random
+GET localhost:8080/response/random
+
+### GET request Message
+GET localhost:8080/response/message
+
+### GET request List<Map<String, Object>>
+GET localhost:8080/response/test
+
+### GET request <Map<Integer, String>
+GET localhost:8080/response/map
+
+### GET request Image
+GET localhost:8080/response/image/pika
